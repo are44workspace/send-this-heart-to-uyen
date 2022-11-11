@@ -4,6 +4,7 @@
 
 ## Live
 
+- [GitHub Pages](https://area44-stack.github.io/minhlauyen)
 - [Netlify](https://minhlauyen.netlify.app)
 
 
