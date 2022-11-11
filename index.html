@@ -27,13 +27,12 @@
 
     <!-- Custom -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <audio src="NIKI_EverySummertime.mp3" type="audio/mp3" autoplay></audio>
     <div class="container">
       <div class="content">
         <canvas id="universe"></canvas>
@@ -49,5 +48,10 @@
     <script src="js/main.js"></script>
     <script src="js/particle.js"></script>
     <script src="js/universe.js"></script>
+    <script>
+      window.onload = function() {
+  var context = new AudioContext();
+}
+    </script>
   </body>
 </html>
