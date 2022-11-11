@@ -11,8 +11,7 @@
 ## Credit
 
 - AREA44
-- Mạnh Tuấn (J2Team)
 
-## Bản quyền
+## License
 
-Bản quyền thuộc [MIT](LICENSE)
+Licensed under the [MIT](LICENSE) license.
