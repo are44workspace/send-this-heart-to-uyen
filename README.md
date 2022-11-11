@@ -1,2 +1,14 @@
-# html5-heart
-Trái tim bằng HTML5 đơn giản
+# Xin chào, mình là Lương Tố Uyên
+
+[Live](https://minhlauyen.netlify.app)
+
+![Banner](banner.jpeg)
+
+## Credit
+
+- AREA44
+- Mạnh Tuấn (J2Team)
+
+## Bản quyền
+
+Bản quyền thuộc [MIT](LICENSE)
