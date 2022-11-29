@@ -1,17 +1,11 @@
 # Xin chào, mình là Uyên!
 
-![Banner](banner.jpeg)
+![Banner](public/banner.jpeg)
 
 ## Live
 
-- [GitHub Pages](https://area44-stack.github.io/minhlauyen)
 - [Netlify](https://minhlauyen.netlify.app)
 
-
-## Credit
+## Author
 
 - AREA44
-
-## License
-
-Licensed under the [MIT](LICENSE) license.

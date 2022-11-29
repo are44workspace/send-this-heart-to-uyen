@@ -1,0 +1,61 @@
+---
+import "../styles/main.css";
+
+let title = "Xin chào, mình là Uyên!";
+let description = "Xin chào, mình là Uyên";
+---
+
+<html lang="en">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.png" />
+
+    <!-- General Meta Tags -->
+    <title>Xin chào, mình là Tố Uyên!</title>
+    <meta name="title" content="Xin chào, mình là Uyên!" />
+    <meta name="description" content="Xin chào, mình là Uyên!" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL("banner.jpeg", Astro.site)} />
+
+    <!-- Twitter -->
+    <meta name="twitter:url" content={Astro.url} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={new URL("banner.jpeg", Astro.site)} />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <canvas id="universe"></canvas>
+      </div>
+    </div>
+    <div class="title">
+      <h1 class="STARDUST">Mình là <strong>Lương Tố Uyên</strong>💖</h1>
+      <img class="img" src="avatar.jpg" alt="Lương Tố Uyên" />
+      <canvas id="pinkboard"></canvas>
+    </div>
+
+    <script
+      is:inline
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+    ></script>
+    <script is:inline src="js/main.js"></script>
+    <script is:inline src="js/particle.js"></script>
+    <script is:inline src="js/universe.js"></script>
+  </body>
+</html>
